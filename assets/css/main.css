@@ -327,6 +327,23 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	.underlineP {
+		display: inline-block;
+	}
+
+	.underlineP::after {
+		content: '';
+		width: 0px;
+		height: 2px;
+		display: block;
+		background: #34A6F7;
+		transition: 150ms;
+	}
+
+	.underlineP:hover::after {
+		width: 100%;
+	}
+
 /* Row */
 
 	.row {

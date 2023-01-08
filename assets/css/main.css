@@ -334,7 +334,7 @@ input, select, textarea {
 	.underlineP::after {
 		content: '';
 		width: 0px;
-		height: 3px;
+		height: 2px;
 		display: block;
 		background: #34A6F7;
 		transition: 150ms;

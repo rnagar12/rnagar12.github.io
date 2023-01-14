@@ -140,7 +140,7 @@ input, select, textarea {
 		width: 65%;
 	}
 
-	a {
+	a, a.alt {
 		-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
@@ -153,6 +153,11 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 			color: #f2849e !important;
+		}
+
+		a.alt:hover {
+			border-bottom-color: transparent;
+			color: #ffffff !important;
 		}
 
 	strong, b {
@@ -358,6 +363,18 @@ input, select, textarea {
 
 	.underlineP:hover::after {
 		width: 100%;
+	}
+
+/* Box Shadow Animation */
+	.link-shadow {
+		content: '';
+		display: inline-block;
+		box-shadow: inset 0 -3px 0 #5E49F5;
+		transition: 200ms;
+	}
+
+	.link-shadow:hover {
+		box-shadow: inset 0 -40px 0 #5E49F5;
 	}
 
 /* Column */

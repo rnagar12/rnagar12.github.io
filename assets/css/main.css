@@ -137,7 +137,7 @@ input, select, textarea {
 
 	.bodyalt {
 		margin: auto;
-		width: 75%;
+		width: 80%;
 	}
 
 	a, a.alt {
@@ -384,7 +384,7 @@ input, select, textarea {
 		width: 33.33%;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 740px) {
 		.column {
 			width: 100%;
 		}
